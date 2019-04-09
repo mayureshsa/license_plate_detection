@@ -1,0 +1,26 @@
+<annotation>
+  <folder>input</folder>
+  <filename>87.jpg</filename>
+  <path>D:\UiT\Semester 2\AI\project\training_data\OpenLabeling\main\input\87.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>999</width>
+    <height>1024</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>license plate</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>414</xmin>
+      <ymin>371</ymin>
+      <xmax>579</xmax>
+      <ymax>457</ymax>
+    </bndbox>
+  </object>
+</annotation>

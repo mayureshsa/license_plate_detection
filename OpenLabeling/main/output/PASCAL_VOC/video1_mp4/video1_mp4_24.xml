@@ -1,0 +1,26 @@
+<annotation>
+  <folder>input\video1_mp4</folder>
+  <filename>video1_mp4_24.jpg</filename>
+  <path>D:\UiT\Semester 2\AI\project\training_data\OpenLabeling\main\input\video1_mp4\video1_mp4_24.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>license plate</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>95</xmin>
+      <ymin>285</ymin>
+      <xmax>143</xmax>
+      <ymax>302</ymax>
+    </bndbox>
+  </object>
+</annotation>

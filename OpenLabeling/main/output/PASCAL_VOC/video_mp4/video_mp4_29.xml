@@ -1,0 +1,14 @@
+<annotation>
+  <folder>input\video_mp4</folder>
+  <filename>video_mp4_29.jpg</filename>
+  <path>D:\UiT\Semester 2\AI\project\training_data\OpenLabeling\main\input\video_mp4\video_mp4_29.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>640</width>
+    <height>368</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+</annotation>
