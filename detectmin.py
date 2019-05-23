@@ -16,7 +16,7 @@ import glob
 import concurrent.futures
 import cv2
 
-
+threshold_occur=5
 os.environ['OMP_THREAD_LIMIT'] = '1'   
 path = "result_img/"
 processed_img_path = "processed_img/"
@@ -102,8 +102,8 @@ def predict():
         if item == '':
             continue
         x=output_text.count(item)
-        #assume that the license plates must be detected at least 8 frames i.e. same character prediction for 8 frames
-        if x>=8:
+        #assume that the license plates must be detected at least threshold_occur frames i.e. same character prediction for threshold_occur frames
+        if x>=threshold_occur:
             count_plate.append((x,item))
     #removing duplicates
     final_result= list(dict.fromkeys(count_plate))
