@@ -13,8 +13,8 @@ e.g. running on stored video
 python main_script.py -t stored -f [path to file]
 
 e.g. running on ipcam
-python main_script.py -t ipcam -i [ip:path] 
-ip:port e.g.(https://192.168.1.1:8080)
+python main_script.py -t ipcam -i [ip:port] 
+e.g. ip:port = (https://192.168.1.1:8080)
 
 
 Training with yolov3 Guide
